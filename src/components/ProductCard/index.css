@@ -76,3 +76,8 @@
   width: 20px;
   margin-bottom: 3px;
 }
+
+.product-link {
+  text-decoration: none;
+  cursor: pointer;
+}
