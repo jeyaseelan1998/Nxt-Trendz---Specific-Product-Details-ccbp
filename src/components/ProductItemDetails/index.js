@@ -83,8 +83,8 @@ class ProductItemDetails extends Component {
 
     renderFailureView = () => (
         <div className="failure-view-container">
-            <img src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png" alt="error view" />
-            <p>Product Not Found</p>
+            <img src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png" alt="failure view" />
+            <h1>Product Not Found</h1>
             <button onClick={this.onContinueShopping} type="button" className="add-to-cart-button">Continue Shopping</button>
         </div>
     )
